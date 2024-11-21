@@ -48,7 +48,14 @@ long duration, distance;
 
 #define ROW_NUM 4
 #define COLUMN_NUM 3
-#define BOTtoken "6469251361:AAHWtwVixa_SvyKv68uLuSg25tN0mOgcHpE"
+
+//put your telegram bot token here
+#define BOTtoken "*********" 
+// 1. Open Telegram and search for "BotFather"
+// 2. Start a conversation with BotFather and type `/newbot`
+// 3. Follow the prompts to name your bot and create a unique username (must end with "bot")
+// 4. BotFather will provide your bot token (e.g., 123456789:ABCDEFghIJKLmnoPQRstuvWXYZ12345)
+// 5. Copy the token and store it securely, you'll use it to interact with the Telegram API
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
