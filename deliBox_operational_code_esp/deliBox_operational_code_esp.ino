@@ -48,7 +48,9 @@ long duration, distance;
 
 #define ROW_NUM     4 // four rows
 #define COLUMN_NUM  3 // three columns
-#define BOTtoken "*********" //put your telegram bot token here
+
+//put your telegram bot token here
+//#define BOTtoken "*********" 
 // 1. Open Telegram and search for "BotFather"
 // 2. Start a conversation with BotFather and type `/newbot`
 // 3. Follow the prompts to name your bot and create a unique username (must end with "bot")
